@@ -1,0 +1,30 @@
+path: /path/to/your/DIOR_dataset # dataset
+train: images/train # train images
+val: images/val # val images
+test: images/test # test images
+
+# number of classes
+nc: 20
+
+# class names
+names: ["airplane",
+        "airport",
+        "baseball field",
+        "basketball-court",
+        "bridge",
+        "chimney",
+        "dam",
+        "Expressway-Service-area",
+        "Expressway-toll-station",
+        "goldfield",
+        "groundbreaking",
+        "harbor",
+        "overpass",
+        "ship",
+        "stadium",
+        "storage-tank",
+        "tennis-court",
+        "trainstation",
+        "vehicle",
+        "windmill"
+      ]

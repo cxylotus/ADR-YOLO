@@ -1,0 +1,22 @@
+# dataset path
+path: /path/to/your/VisDrone_dataset
+train: images/train  # path + train
+val: images/test # path + val
+test: images/test # path + test
+
+# number of classes
+nc: 10
+
+# class names
+names: [
+        "pedestrian", 
+        "people", 
+        "bicycle", 
+        "car", 
+        "van", 
+        "trunk", 
+        "tricycle", 
+        "awning-tricycle", 
+        "bus", 
+        "motor"
+        ]
